@@ -12,6 +12,6 @@ class Ffmpeg_ < Formula
   end
 
   test do
-    system "#{bin}/ffmpeg_concat.sh"
+    system "#{bin}/ffmpeg_concat"
   end
 end
