@@ -1,5 +1,7 @@
 # Nickshine Tap
 
+>Homebrew Tap for my projects
+
 ## How do I install these formulae?
 `brew install nickshine/tap/<formula>`
 
