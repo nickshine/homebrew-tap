@@ -2,12 +2,13 @@ class Ffmpeg_ < Formula
   desc "Helper ffmpeg scripts for use with NVR recordings of IP Cameras"
   homepage "https://github.com/nickshine/ffmpeg_"
   license "MIT"
-  head "https://github.com/nickshine/ffmpeg_.git"
+  head "https://github.com/nickshine/ffmpeg_.git", :branch => "main"
 
+  bottle :unneeded
   depends_on "ffmpeg"
 
   def install
-    bin.install "ffmpeg_concat.sh" "ffmpeg_timelapse.sh" "ffmpeg_trim.sh"
+    bin.install "ffmpeg_concat.sh", "ffmpeg_timelapse.sh", "ffmpeg_trim.sh"
   end
 
   test do
