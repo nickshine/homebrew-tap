@@ -8,7 +8,7 @@ class Ffmpeg_ < Formula
   depends_on "ffmpeg"
 
   def install
-    bin.install "ffmpeg_concat.sh", "ffmpeg_timelapse.sh", "ffmpeg_trim.sh"
+    bin.install "ffmpeg_concat.sh" => "ffmpeg_concat", "ffmpeg_timelapse.sh" => "ffmpeg_timelapse", "ffmpeg_trim.sh" => "ffmpeg_trim"
   end
 
   test do
